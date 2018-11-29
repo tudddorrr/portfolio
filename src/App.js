@@ -43,7 +43,7 @@ export default class App extends Component {
     if(p.title.startsWith("LIFX") && !this.state.lightsOff) className += " party"
 
     return (
-      <div className={className} style={{backgroundColor: p.bg, color: p.colour}}>
+      <div className={className} style={{"background-color": p.bg, color: p.colour}}>
         {this.renderProjectNames()}
 
         <div className="content">
@@ -78,7 +78,7 @@ export default class App extends Component {
             : null
           }
 
-          <div className="projectImages" style={{gridTemplateColumns: "repeat(" + (p.columns ? p.columns : p.images.length) + ", 1fr)"}}>
+          <div className="projectImages" style={{"grid-template-columns": "repeat(" + (p.columns ? p.columns : p.images.length) + ", 1fr)"}}>
             {p.images.map(image => (
               <img
                 src={image}

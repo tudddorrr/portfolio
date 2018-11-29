@@ -1,7 +1,7 @@
 const projects = [
   {
     title: 'Tudor',
-    date: 'Data Engineer at Capital One',
+    date: 'Frontend Developer at Expend',
     bg: '#bbb',
     colour: '#333',
     text: [
@@ -249,19 +249,19 @@ const projects = [
   {
     title: 'Just Pick It 2',
     date: 'September 2018',
-    wip: true,
     bg: '#ffaa5a',
     text: [
       'Just Pick It, reborn. Rewritten from the ground up using Inferno',
-      'Just Pick It was my second web project and rewriting it with all the knowledge I\'ve gained since then was really satisfying',
-      'This time round, you can search for places using the Google Places API and automatically add them to your library. It will also have new features like scheduling, itineraries and more customisation'
+      'This time round, you can search for places using the Google Places API and automatically add them to your lobby.',
+      'The highlight of this rewrite is the ability to have multiple boards within a lobby. For example a main board for all the places you want to go and other boards for temporary events like a birthday night out or places to go while on holiday.'
     ],
-    columns: 2,
+    columns: 3,
     images: [
       require('../assets/jpi21.png'),
-      require('../assets/jpi22.png'),
       require('../assets/jpi23.png'),
-      require('../assets/jpi24.png')
+      require('../assets/jpi22.png'),
+      require('../assets/jpi24.png'),
+      require('../assets/jpi25.png')
     ],
     url: 'justpick.it',
     builtWith: ['Inferno, Google Places API']

@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'Sleepy Studios',
-    date: '2009 onwards',
+    date: '2009 to present',
     bg: '#241b5f',
     text: [
       'Game development studio I co-founded. To date we\'ve made over 15 games, including three commercial projects, two of which (Superstatic and Scrunk) are available on Steam.',
@@ -162,7 +162,7 @@ const projects = [
     bg: '#d2424b',
     text: [
         'A platform aiming to eliminate fake news by allowing users to rate news as part of a self-regulating community',
-        'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing front ends, brought them up to modern web standards and contributed UX improvements',
+        'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing interfaces, brought them up to modern web standards and contributed UX improvements',
     ],
     images: [
       require('../assets/yoop1.png'),
@@ -215,7 +215,7 @@ const projects = [
     builtWith: ['React', 'GitHub API']
   },
   {
-    title: 'Eyes2',
+    title: 'Eyes 2',
     date: 'May 2018',
     bg: '#30334d',
     text: [
@@ -258,13 +258,35 @@ const projects = [
     columns: 3,
     images: [
       require('../assets/jpi21.png'),
-      require('../assets/jpi23.png'),
       require('../assets/jpi22.png'),
+      require('../assets/jpi26.png'),
       require('../assets/jpi24.png'),
-      require('../assets/jpi25.png')
+      require('../assets/jpi25.png'),
+      require('../assets/jpi23.png')
     ],
     url: 'justpick.it',
     builtWith: ['Inferno, Google Places API']
+  },
+  {
+    title: 'DevStreak',
+    date: 'January 2019',
+    bg: '#7289DA',
+    text: [
+      'A open-source Discord Bot and server dedicated to keeping up a streak of doing something every day',
+      'Users can start and progress streaks using the !streak command in a specific chosen channel followed by the work they did',
+      'Users can have one active streak per channel and can see all the active streaks in the channel as well as whether or not they have progressed their own streak today',
+      'At the end of the day, the highest active streaks are announced and streaks that haven\'t been continued are reset'
+    ],
+    columns: 2,
+    images: [
+      require('../assets/ds5.png'),
+      require('../assets/ds4.png'),
+      require('../assets/ds3.png'),
+      require('../assets/ds2.png'),
+      require('../assets/ds1.png')
+    ],
+    url: 'discord.gg/zs2CQk',
+    builtWith: ['Discord.js', 'lowdb', 'Node']
   }
 ]
 

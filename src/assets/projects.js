@@ -2,8 +2,8 @@ const projects = [
   {
     title: 'Tudor',
     date: 'Frontend Developer at Expend',
-    bg: '#bbb',
-    colour: '#333',
+    bg: '#5082D2',
+    colour: '#FFAB00',
     text: [
       'University of Nottingham Compsci Grad',
       'Interested in networking, IoT, tools and game development'
@@ -149,7 +149,7 @@ const projects = [
     date: 'September 2017 - September 2018',
     bg: '#404040',
     text: [
-      'A portfolio site built over a weekend to learn Vue. The app features a dynamic slide system used to display each project and utilises CircleCI to automatically build and deploy',
+      'My old portfolio built over a weekend to learn Vue. The app features a dynamic slide system used to display each project and utilises CircleCI to automatically build and deploy',
     ],
     columns: 2,
     images: [require('../assets/oldtudr.png')],

@@ -52,29 +52,34 @@ export default class App extends Component {
             <h2>{p.date} {p.wip ? "[WIP]" : ""}</h2>
           </div>
 
-          {
-            p.text.map(s => {
-              return <p className="projectText">{s}</p>
-            })
-          }
+          {p.text && p.text.map(s => {
+            return <p className="projectText">{s}</p>
+          })}
+
+          {p.smallProjects && p.smallProjects.map(sp => {
+            return (
+              <div className={"smallProject"}>
+                <h2>{sp.title}</h2>
+                <p className="projectText">{sp.text}</p>
+                <p className="projectText"><a href={"http://" + sp.url} target="_blank" rel="noopener noreferrer">{sp.url}</a></p>
+              </div>
+            )
+          })}
 
           <br/>
 
-          {
-            p.builtWith
+          {p.builtWith
             ? <p className="projectText">{p.builtWith.join(" / ")}</p>
             : null
           }
 
-          {
-            p.title === "Tudor"
+          {p.title === "Tudor"
             ? this.renderAboutNav()
             : null
           }
 
-          {
-            p.url
-            ? <p className="projectText"><a href={"http://" + p.url}>{p.url}</a></p>
+          {p.url
+            ? <p className="projectText"><a href={"http://" + p.url} target="_blank" rel="noopener noreferrer">{p.url}</a></p>
             : null
           }
 
@@ -87,8 +92,7 @@ export default class App extends Component {
               />
             ))}
 
-            {
-              p.title === "LIFX Visualiser"
+            {p.title === "LIFX Visualiser"
               ? this.renderVideo()
               : null
             }

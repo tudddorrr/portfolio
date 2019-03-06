@@ -92,7 +92,7 @@ iframe {
 
 .projectText, .aboutNav, .projectImages {
   width: 100%;
-  margin-bottom: 2em;;
+  margin-bottom: 2em;
 }
 
 .projectImages {
@@ -114,6 +114,19 @@ iframe {
 
 .party {
   animation: party-anim 5s infinite ease-out;
+}
+
+.smallProject {
+  margin-bottom: 2.5em;
+}
+
+.smallProject > .projectText {
+  margin-bottom: 0em;
+}
+
+.smallProject > h2 {
+  font-size: 1.5rem;
+  color: #FFAB00;
 }
 
 @keyframes party-anim {

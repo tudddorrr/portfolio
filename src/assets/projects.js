@@ -21,10 +21,10 @@ const projects = [
       'Our first game, Crawle, despite not being on Steam, was hugely successful in a time where Steam was the dominant platform for indie games. The game took over 4 years to complete',
     ],
     images: [
-      require('../assets/ss.png'),
-      require('../assets/entropy.png'),
-      require('../assets/vigilante.png'),
-      require('../assets/crawle.png')
+      require('../assets/images/ss.png'),
+      require('../assets/images/entropy.png'),
+      require('../assets/images/vigilante.png'),
+      require('../assets/images/crawle.png')
     ],
     url: 'sleepystudios.net',
     builtWith: ['Unity', 'C#', 'JavaScript', 'Java', 'VB6']
@@ -38,9 +38,9 @@ const projects = [
       'Administrators also had access to a number of anonymous statistics such as login locations, phone platforms and authentication method popularity',
     ],
     images: [
-      require('../assets/mobauth1.png'),
-      require('../assets/mobauth2.png'),
-      require('../assets/mobauth3.png')
+      require('../assets/images/mobauth1.png'),
+      require('../assets/images/mobauth2.png'),
+      require('../assets/images/mobauth3.png')
     ],
     builtWith: ['Node', 'Angular2', 'TypeScript']
   },
@@ -53,10 +53,10 @@ const projects = [
       'The backend was originally built using Express and LowDB (a lodash-based database package) but was rewritten in 2018 to use serverless architecture (specifically Amazon Lambda) coupled with DynamoDB',  
     ],
     images: [
-      require('../assets/jpi1.png'),
-      require('../assets/jpi2.png'),
-      require('../assets/jpi3.png'),
-      require('../assets/jpi4.png')
+      require('../assets/images/jpi1.png'),
+      require('../assets/images/jpi2.png'),
+      require('../assets/images/jpi3.png'),
+      require('../assets/images/jpi4.png')
     ],
     url: 'justpick.it',
     builtWith: ['Node', 'Angular4', 'Bootstrap', 'TypeScript', 'Amazon Lambda', 'DynamoDB']
@@ -70,7 +70,7 @@ const projects = [
       'Initially implemented using Express, in early 2018 I rewrote it to take advantage of serverless architecture using Amazon Lambda',
     ],
     columns: 2,
-    images: [require('../assets/waker.png')],
+    images: [require('../assets/images/waker.png')],
     url: 'twitter.com/waker_bot',
     builtWith: ['Node', 'Serverless', 'Amazon Lambda']
   },
@@ -83,10 +83,10 @@ const projects = [
     ],
     columns: 4,
     images: [
-      require('../assets/interview1.png'),
-      require('../assets/interview2.png'),
-      require('../assets/interview3.png'),
-      require('../assets/interview4.png')
+      require('../assets/images/interview1.png'),
+      require('../assets/images/interview2.png'),
+      require('../assets/images/interview3.png'),
+      require('../assets/images/interview4.png')
     ],
     builtWith: ['React Native']
   },
@@ -100,13 +100,13 @@ const projects = [
     ],
     columns: 4,
     images: [
-      require('../assets/checkin1.png'),
-      require('../assets/checkin2.png'),
-      require('../assets/checkin3.png'),
-      require('../assets/checkin4.png'),
-      require('../assets/checkin5.png'),
-      require('../assets/checkin6.png'),
-      require('../assets/checkin7.png')
+      require('../assets/images/checkin1.png'),
+      require('../assets/images/checkin2.png'),
+      require('../assets/images/checkin3.png'),
+      require('../assets/images/checkin4.png'),
+      require('../assets/images/checkin5.png'),
+      require('../assets/images/checkin6.png'),
+      require('../assets/images/checkin7.png')
     ],
     builtWith: ['Ionic3', 'TypeScript', 'Twilio']
   },
@@ -121,11 +121,11 @@ const projects = [
     ],
     columns: 3,
     images: [
-      require('../assets/dangle0.png'),
-      require('../assets/dangle.png'), 
-      require('../assets/dangle2.png'),
-      require('../assets/dangle3.png'),
-      require('../assets/dangle4.png')
+      require('../assets/images/dangle0.png'),
+      require('../assets/images/dangle.png'), 
+      require('../assets/images/dangle2.png'),
+      require('../assets/images/dangle3.png'),
+      require('../assets/images/dangle4.png')
     ],
     url: 'github.com/sekaru/dangle',
     builtWith: ['Node', 'Angular4', 'Material', 'SASS', 'TypeScript', 'Pug']
@@ -139,7 +139,7 @@ const projects = [
     ],
     columns: 2,
     images: [
-      require('../assets/eyes.png')
+      require('../assets/images/eyes.png')
     ],
     url: 'github.com/sekaru/eyes',
     builtWith: ['Angular4', 'TypeScript']
@@ -152,7 +152,7 @@ const projects = [
       'My old portfolio built over a weekend to learn Vue. The app features a dynamic slide system used to display each project and utilises CircleCI to automatically build and deploy',
     ],
     columns: 2,
-    images: [require('../assets/oldtudr.png')],
+    images: [require('../assets/images/oldtudr.png')],
     url: 'sleepystudios.net/oldtudr',
     builtWith: ['Vue']
   },
@@ -165,10 +165,10 @@ const projects = [
         'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing interfaces, brought them up to modern web standards and contributed UX improvements',
     ],
     images: [
-      require('../assets/yoop1.png'),
-      require('../assets/yoop2.png'),
-      require('../assets/yoop3.png'),
-      require('../assets/yoop4.png')
+      require('../assets/images/yoop1.png'),
+      require('../assets/images/yoop2.png'),
+      require('../assets/images/yoop3.png'),
+      require('../assets/images/yoop4.png')
     ],
     builtWith: ['React', 'React Native']
   },
@@ -180,11 +180,11 @@ const projects = [
       'A Just Pick It mobile companion app allowing you to add places to your lobby by tapping on them in a Google Maps interface',  
     ],
     images: [
-      require('../assets/jmi0.png'),
-      require('../assets/jmi1.png'),
-      require('../assets/jmi2.png'),
-      require('../assets/jmi3.png'),
-      require('../assets/jmi4.png')
+      require('../assets/images/jmi0.png'),
+      require('../assets/images/jmi1.png'),
+      require('../assets/images/jmi2.png'),
+      require('../assets/images/jmi3.png'),
+      require('../assets/images/jmi4.png')
     ],
     url: 'github.com/sekaru/justmapit',
     builtWith: ['React Native', 'Google Maps & Places APIs']
@@ -208,8 +208,8 @@ const projects = [
       'A web app that automatically generates a portfolio from your public GitHub profile and shows your favourite languages and topics',
     ],
     images: [
-      require('../assets/octo1.png'),   
-      require('../assets/octo2.png')  
+      require('../assets/images/octo1.png'),   
+      require('../assets/images/octo2.png')  
     ],
     url: 'sekaru.github.io/Octopocto',
     builtWith: ['React', 'GitHub API']
@@ -223,7 +223,7 @@ const projects = [
     ],
     columns: 2,
     images: [
-      require('../assets/eyes2.png')
+      require('../assets/images/eyes2.png')
     ],
     url: 'sleepystudios.net/eyes',
     builtWith: ['Inferno']
@@ -239,9 +239,9 @@ const projects = [
     ],
     columns: 4,
     images: [
-      require('../assets/ls1.jpg'),
-      require('../assets/ls2.jpg'),
-      require('../assets/ls3.jpg')
+      require('../assets/images/ls1.jpg'),
+      require('../assets/images/ls2.jpg'),
+      require('../assets/images/ls3.jpg')
     ],
     url: 'github.com/sekaru/lifx-lightshow',
     builtWith: ['React Native']
@@ -257,19 +257,19 @@ const projects = [
     ],
     columns: 3,
     images: [
-      require('../assets/jpi21.png'),
-      require('../assets/jpi22.png'),
-      require('../assets/jpi26.png'),
-      require('../assets/jpi24.png'),
-      require('../assets/jpi25.png'),
-      require('../assets/jpi23.png')
+      require('../assets/images/jpi21.png'),
+      require('../assets/images/jpi22.png'),
+      require('../assets/images/jpi26.png'),
+      require('../assets/images/jpi24.png'),
+      require('../assets/images/jpi25.png'),
+      require('../assets/images/jpi23.png')
     ],
     url: 'justpick.it',
     builtWith: ['Inferno, Google Places API']
   },
   {
     title: 'DevStreak',
-    date: 'January 2019',
+    date: 'January 2019 to present',
     bg: '#7289DA',
     text: [
       'A open-source Discord Bot and server dedicated to keeping up a streak of doing something every day',
@@ -279,14 +279,40 @@ const projects = [
     ],
     columns: 2,
     images: [
-      require('../assets/ds5.png'),
-      require('../assets/ds4.png'),
-      require('../assets/ds3.png'),
-      require('../assets/ds2.png'),
-      require('../assets/ds1.png')
+      require('../assets/images/ds5.png'),
+      require('../assets/images/ds4.png'),
+      require('../assets/images/ds3.png'),
+      require('../assets/images/ds2.png'),
+      require('../assets/images/ds1.png')
     ],
     url: 'discord.gg/zs2CQk',
     builtWith: ['Discord.js', 'lowdb', 'Node']
+  },
+  {
+    title: 'Small Projects',
+    date: 'Prototypes and experiments',
+    bg: '#404040',
+    smallProjects: [
+      {
+        title: 'BadBook',
+        colour: '#222',
+        text: 'A minimal social network built with Inferno, Serverless, Amazon Lambda and DynamoDB. Allows users to customise their posts and react to other posts. Source code available on GitHub.',
+        url: 'sleepystudios.net/badbook'
+      },
+      {
+        title: 'AppyHour',
+        colour: '#DC143C',
+        text: 'A React app showing happy hour deals in London with an automatically curated view of live deals. Source code available on GitHub.',
+        url: 'sleepystudios.net/appyhour'
+      },
+      {
+        title: 'LIFX Visualiser 2',
+        colour: '#42F4DC',
+        text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, allowing users to define their own colours as well as how they\'re triggered (e.g. by a volume range or change in volume) as well as which lights to use.',
+        url: 'github.com/sekaru/lifx-visualiser2'
+      }
+    ],
+    images: []
   }
 ]
 

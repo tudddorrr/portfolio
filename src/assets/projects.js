@@ -3,7 +3,7 @@ const projects = [
     title: 'Tudor',
     date: 'Frontend Developer at Expend',
     bg: '#5082D2',
-    colour: '#FFAB00',
+    colour: '#fff',
     text: [
       'University of Nottingham Compsci Grad',
       'Interested in networking, IoT, tools and game development'
@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'Sleepy Studios',
     date: '2009 to present',
-    bg: '#241b5f',
+    bg: '#352c6f',
     text: [
       'Game development studio I co-founded. To date we\'ve made over 15 games, including three commercial projects, two of which (Superstatic and Scrunk) are available on Steam.',
       'Our focus has always been on prototyping and recently our aim has been to create unique and interesting multiplayer games (e.g. Entropy)',
@@ -147,7 +147,7 @@ const projects = [
   {
     title: 'tudr.xyz',
     date: 'September 2017 - September 2018',
-    bg: '#404040',
+    bg: '#555',
     text: [
       'My old portfolio built over a weekend to learn Vue. The app features a dynamic slide system used to display each project and utilises CircleCI to automatically build and deploy',
     ],
@@ -217,7 +217,7 @@ const projects = [
   {
     title: 'Eyes 2',
     date: 'May 2018',
-    bg: '#30334d',
+    bg: '#52556f',
     text: [
       'An Eyes rewrite made to be faster, more convenient and more transparent. It\'s built with Inferno for speed and has support for extra server descriptions such as if the server is still in development or discontinued',
     ],
@@ -230,8 +230,7 @@ const projects = [
   },
   {
     title: 'LightShow',
-    date: 'June 2018',
-    wip: true,
+    date: 'June 2018, May 2019 - July 2019',
     bg: '#199865',
     text: [
       'An Android app for creating custom light shows using your LIFX devices',
@@ -243,7 +242,7 @@ const projects = [
       require('../assets/images/ls2.jpg'),
       require('../assets/images/ls3.jpg')
     ],
-    url: 'github.com/sekaru/lifx-lightshow',
+    url: 'github.com/sekaru/lightshow',
     builtWith: ['React Native']
   },
   {
@@ -291,23 +290,21 @@ const projects = [
   {
     title: 'Small Projects',
     date: 'Prototypes and experiments',
-    bg: '#404040',
+    bg: '#5082D2',
+    colour: '#fff',
     smallProjects: [
       {
         title: 'BadBook',
-        colour: '#222',
         text: 'A minimal social network built with Inferno, Serverless, Amazon Lambda and DynamoDB. Allows users to customise their posts and react to other posts. Source code available on GitHub.',
         url: 'sleepystudios.net/badbook'
       },
       {
         title: 'AppyHour',
-        colour: '#DC143C',
         text: 'A React app showing happy hour deals in London with an automatically curated view of live deals. Source code available on GitHub.',
         url: 'sleepystudios.net/appyhour'
       },
       {
         title: 'LIFX Visualiser 2',
-        colour: '#42F4DC',
         text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, allowing users to define their own colours as well as how they\'re triggered (e.g. by a volume range or change in volume) as well as which lights to use.',
         url: 'github.com/sekaru/lifx-visualiser2'
       }

@@ -125,6 +125,7 @@ export default class App extends Component {
         <li><a href="https://twitter.com/sekaru_">Twitter</a></li>
         <li><a href="https://www.linkedin.com/in/tudor-sandulescu-257bb5130">LinkedIn</a></li>
         <li><a href="cv.pdf">CV</a></li>
+        <br/>
         <li>firstnamelastname@outlook.com</li>
       </ul>
     )

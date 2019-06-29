@@ -131,7 +131,7 @@ iframe {
 }
 
 .smallProject {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .smallProject > .projectText {
@@ -178,6 +178,10 @@ iframe {
     height: 60vw;
   }
 
+  li {
+    margin-right: 1em;
+  }  
+
   .app {
     flex-direction: column;
     justify-content: flex-start;
@@ -215,6 +219,7 @@ iframe {
 
   .projectName > h2 {
     font-size: 1rem;
+    margin-bottom: 3em;
   }
 
   .projectImages {

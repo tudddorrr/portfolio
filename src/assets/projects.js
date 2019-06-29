@@ -230,17 +230,18 @@ const projects = [
   },
   {
     title: 'LightShow',
-    date: 'June 2018, May 2019 - July 2019',
+    date: 'June 2018, April 2019',
     bg: '#199865',
     text: [
-      'An Android app for creating custom light shows using your LIFX devices',
-      'The app allows you to setup sequences. These sequences then show up on the main dashboard and activate when pressed'
+      'An iOS/Android app for creating custom light shows using your LIFX devices',
+      'The app allows you to setup sequences. These sequences then show up on the main dashboard and activate when pressed',
+      'Sequences can loop and are made up of actions. Actions specify hue/saturation/kelvin/brightness as well as custom delays and transition times'
     ],
     columns: 4,
     images: [
-      require('../assets/images/ls1.jpg'),
-      require('../assets/images/ls2.jpg'),
-      require('../assets/images/ls3.jpg')
+      require('../assets/images/ls1.png'),
+      require('../assets/images/ls2.png'),
+      require('../assets/images/ls3.png')
     ],
     url: 'github.com/sekaru/lightshow',
     builtWith: ['React Native']
@@ -305,7 +306,7 @@ const projects = [
       },
       {
         title: 'LIFX Visualiser 2',
-        text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, allowing users to define their own colours as well as how they\'re triggered (e.g. by a volume range or change in volume) as well as which lights to use.',
+        text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, letting people define their own colours as well as how they\'re triggered (e.g. by a volume range or change in volume) as well as which lights to use.',
         url: 'github.com/sekaru/lifx-visualiser2'
       }
     ],

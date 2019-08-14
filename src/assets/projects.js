@@ -15,10 +15,10 @@ const projects = [
     date: '2009 to present',
     bg: '#352c6f',
     text: [
-      'Game development studio I co-founded. To date we\'ve made over 15 games, including three commercial projects, two of which (Superstatic and Scrunk) are available on Steam.',
+      'Game development studio I co-founded. To date we\'ve made over 15 games, including three commercial projects, two of which (Superstatic and Scrunk) are available on Steam',
       'Our focus has always been on prototyping and recently our aim has been to create unique and interesting multiplayer games (e.g. Entropy)',
-      'We regularly participate in game jams, especially Ludum Dare. These usually culminate in new project ideas (e.g. Waker and Dangle). We also like to open source most our jam games too!',        
-      'Our first game, Crawle, despite not being on Steam, was hugely successful in a time where Steam was the dominant platform for indie games. The game took over 4 years to complete',
+      'We regularly participate in game jams, especially Ludum Dare. These usually culminate in new project ideas (e.g. Waker and Dangle). We also like to open source our jam games too!',        
+      'Our first game, Crawle, despite not being on Steam, was hugely successful in a time where Steam was the dominant platform for indie games. Crawle evolved from being a simple 4-year passion project to a great first step in the indie games industry',
     ],
     images: [
       require('../assets/images/ss.png'),
@@ -34,8 +34,9 @@ const projects = [
     date: 'October 2016',
     bg: '#00bb4e',
     text: [
-      'A secure authentication system built for Capital One as part of a group project. A user logs in on the web, authenticates on their phone (using face or touch) and once authenticated, the webpage automatically updates to log them in',
+      'A secure authentication system built for Capital One as part of a group project. A user logs in on the web, authenticates on their phone (using face or touch) and once authenticated, the frontend automatically updates to log them in',
       'Administrators also had access to a number of anonymous statistics such as login locations, phone platforms and authentication method popularity',
+      'I developed the frontend and backend (starting in PHP and then later rewriting it in JavaScript) and managed the technical and UX/design aspects of the project'
     ],
     images: [
       require('../assets/images/mobauth1.png'),
@@ -50,7 +51,7 @@ const projects = [
     bg: '#fba234',
     text: [
       'A web-app for storing potential going-out destinations (e.g. hotels, bars, restaurants). Anyone can create a lobby and share their lobby code to allow friends to add their own places and vote on existing ones',
-      'The backend was originally built using Express and LowDB (a lodash-based database package) but was rewritten in 2018 to use serverless architecture (specifically Amazon Lambda) coupled with DynamoDB',  
+      'The backend was originally built using Express and lowDB (a lodash-based database package) but was rewritten in 2018 to use serverless architecture (specifically Amazon Lambda) coupled with DynamoDB',  
     ],
     images: [
       require('../assets/images/jpi1.png'),
@@ -66,7 +67,7 @@ const projects = [
     date: 'July 2017',
     bg: '#eaae1c',
     text: [
-      'A routing system for Sleepy Studios servers. Using Waker we can easily query server locations and statuses. If a server is down the bot will notify us via Twitter',
+      'A routing system for Sleepy Studios servers. Using Waker we can easily query geographical server locations and statuses. If a server is down the bot will notify us via Twitter',
       'Initially implemented using Express, in early 2018 I rewrote it to take advantage of serverless architecture using Amazon Lambda',
     ],
     columns: 2,
@@ -95,7 +96,7 @@ const projects = [
     date: 'August 2017',
     bg: '#7f0d4a',
     text: [
-      'Another app built at MHR. The app aims to augment employee check-ins by managing a list of agreements and talking points between a manager and employee with speech recognition to easily store conversation notes for later review',
+      'An app I built during an internship at MHR. The app aims to augment employee check-ins by managing a list of agreements and talking points between a manager and employee with speech recognition to easily store conversation notes for later review',
       'The app also features video calling via Twilio and a socket server to synchronise events between managers and employees',  
     ],
     columns: 4,
@@ -161,8 +162,8 @@ const projects = [
     date: 'November 2017 - February 2018',
     bg: '#d2424b',
     text: [
-        'A platform aiming to eliminate fake news by allowing users to rate news as part of a self-regulating community',
-        'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing interfaces, brought them up to modern web standards and contributed UX improvements',
+      'A platform aiming to eliminate fake news by allowing users to rate news as part of a self-regulating community',
+      'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing interfaces, brought them up to modern web standards and contributed UX improvements',
     ],
     images: [
       require('../assets/images/yoop1.png'),
@@ -195,6 +196,7 @@ const projects = [
     bg: '#000',
     text: [
       'Visualise your Spotify music through a LIFX device using Spotify\'s web API and audio analysis tool',
+      'The visualiser includes a number of different modes for how colours change and how beats are detected as well as many other settings for personalising the visualiser'
     ],
     images: [],
     url: 'github.com/sekaru/spotify-lifx-visualiser',
@@ -219,7 +221,7 @@ const projects = [
     date: 'May 2018',
     bg: '#52556f',
     text: [
-      'An Eyes rewrite made to be faster, more convenient and more transparent. It\'s built with Inferno for speed and has support for extra server descriptions such as if the server is still in development or discontinued',
+      'An Eyes rewrite made to be faster, more convenient and more transparent. It\'s built with Inferno for speed and has support for extra server tags such as if the server is still in development or discontinued',
     ],
     columns: 2,
     images: [
@@ -252,7 +254,7 @@ const projects = [
     bg: '#ffaa5a',
     text: [
       'Just Pick It, reborn. Rewritten from the ground up using Inferno',
-      'This time round, you can search for places using the Google Places API and automatically add them to your lobby.',
+      'In this version, you can search for places using the Google Places API and automatically add them to your lobby.',
       'The highlight of this rewrite is the ability to have multiple boards within a lobby. For example a main board for all the places you want to go and other boards for temporary events like a birthday night out or places to go while on holiday.'
     ],
     columns: 3,
@@ -269,13 +271,15 @@ const projects = [
   },
   {
     title: 'DevStreak',
-    date: 'January 2019 to present',
+    date: 'January 2019 to August 2019',
     bg: '#7289DA',
     text: [
       'A open-source Discord Bot and server dedicated to keeping up a streak of doing something every day',
       'Users can start and progress streaks using the !streak command in a specific chosen channel followed by the work they did',
       'Users can have one active streak per channel and can see all the active streaks in the channel as well as whether or not they have progressed their own streak today',
-      'At the end of the day, the highest active streaks are announced and streaks that haven\'t been continued are reset'
+      'At the end of the day, the highest active streaks are announced and streaks that haven\'t been continued are reset',
+      'Streakbot also has an API for querying purposes, built with Koa',
+      'As of August 2019, DevStreak has had 775 streak updates by 40 users with the highest streak being 36 days'
     ],
     columns: 2,
     images: [
@@ -286,7 +290,7 @@ const projects = [
       require('../assets/images/ds1.png')
     ],
     url: 'discord.gg/zs2CQk',
-    builtWith: ['Discord.js', 'lowdb', 'Node']
+    builtWith: ['Discord.js', 'lowdb', 'Node', 'Koa']
   },
   {
     title: 'Small Projects',
@@ -296,17 +300,17 @@ const projects = [
     smallProjects: [
       {
         title: 'BadBook',
-        text: 'A minimal social network built with Inferno, Serverless, Amazon Lambda and DynamoDB. Allows users to customise their posts and react to other posts. Source code available on GitHub.',
+        text: 'A minimal social network built with Inferno, Serverless, Amazon Lambda and DynamoDB. The platform allows users to customise their posts (such as the text and background colours) and react to other posts. Users can choose to sign up or remain completely anonymous',
         url: 'sleepystudios.net/badbook'
       },
       {
         title: 'AppyHour',
-        text: 'A React app showing happy hour deals in London with an automatically curated view of live deals. Source code available on GitHub.',
+        text: 'A React app showing happy hour deals in London with an automatically curated view of live deals',
         url: 'sleepystudios.net/appyhour'
       },
       {
         title: 'LIFX Visualiser 2',
-        text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, letting people define their own colours as well as how they\'re triggered (e.g. by a volume range or change in volume) as well as which lights to use.',
+        text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, allowing users to define their own colours as well as how they\'re triggered (e.g. when the volume hits a certain threshold or a specific percentage change in volume) as well as which lights to use',
         url: 'github.com/sekaru/lifx-visualiser2'
       }
     ],

@@ -1,1 +1,1 @@
-https://tudr.xyz
+https://tud.cool

@@ -1,10 +1,10 @@
 {
   "name": "portfolio2",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
-    "inferno": "^6.3.1",
-    "inferno-scripts": "^7.0.2"
+    "inferno": "^7.3.1",
+    "inferno-scripts": "^7.0.4"
   },
   "scripts": {
     "start": "inferno-scripts start",

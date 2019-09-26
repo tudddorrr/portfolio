@@ -1,88 +1,75 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
-
 * {
   line-height: 1.3;
 }
 
-a {
-  color: white;
+button {
+  color: #222;
   text-decoration: none;
   font-weight: bold;
-  padding: 0.5em 1.25em;
-  background: #2f2f2f;
-  border-radius: 0.75em;
+  padding: 1em 2em;
+  background: #fff;
+  border-radius: 0.4em;
   transition: 0.2s;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 1.5em;
+  cursor: pointer;
 }
 
-a:hover {
-  color: #222;
-  background: white;
+button:hover {
+  color: #fff;
+  background: #222;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0;
-  margin-right: 2em;
-  margin-bottom: 2em;
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
+video {
+  width: 320px;
 }
 
 .app {
   width: 100vw;
-  min-height: 120vh;
-
+  min-height: 100vh;
   background-color: white;
   overflow: hidden;
   color: white;
   transition: all 0.2s;
-
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-
-  padding: 2em 0;
-}
-
-.intro {
-  animation: .5s slidein linear;
-  animation-iteration-count: 1;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .content {
-  width: 60vw;
   overflow: hidden;
+  padding: 4em;
+  width: 90vw;
 }
 
-.projects {
-  position: -webkit-sticky;
-  position: sticky;
-
-  top: 0;
-  left: 1em;
-  color: white;
+.projectList {
   text-align: left;
   transition: all 0.2s;
+  background: #222;
+  position: relative;
+  padding: 1.25em;
+  width: 10vw;
 }
 
-.projects > h4 {
-  font-size: 1rem;
+.projectListTitle {
   cursor: pointer;
-  opacity: 0.6;
+  color: #888;
+  transition: 0.2s;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 1.5em;
+  clear: both;
+  float: left;
+  font-weight: bold;
 }
 
-.projects > h4:hover {
-  color: white;
-  opacity: 1;
+.projectListTitle:hover {
+  color: #fff;  
+}
+
+.projectListTitleActive, .projectListTitleActive:hover {
+  color: #fff;
 }
 
 .projectName {
@@ -93,30 +80,51 @@ iframe {
 
 .projectName > h1, h2 {
   align-self: flex-end;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   margin: 0;
 }
 
 .projectName > h2 {
   font-size: 2rem;
-  padding-top: 0.5em;
-  margin-bottom: 1em;
-}
-
-.projectText, .aboutNav, .projectImages {
-  width: 100%;
   margin-bottom: 2em;
 }
 
-.projectImages {
-  display: grid;
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-  margin: 0 auto;
+.projectText, .builtWithText {
+  margin-top: 0;
+  font-size: 1.25rem;
 }
 
-.projectImages >  img {
+.projectText, .builtWith {
+  margin-bottom: 1.5em;
+}
+
+.builtWithText {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.urlsWrapper {
+  display: flex;
+}
+
+.urlsWrapper > * {
+  margin-right: 1.5em;
+}
+
+.urlsWrapper:last-child {
+  margin-right: 0;
+}
+
+.projectMedia {
+  display: grid;
+  max-width: 100%;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-top: 0.5em;
+}
+
+.projectMedia > img, video {
   display: block;
   max-width: 100%;
   height: auto;
@@ -124,6 +132,13 @@ iframe {
 
   opacity: 0;
   animation: fadein 0.3s linear 0s 1 forwards;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.2s;
+}
+
+.projectMedia > img:hover {
+  border: 2px solid rgba(255, 255, 255, 255);
 }
 
 .party {
@@ -134,13 +149,25 @@ iframe {
   margin-bottom: 3em;
 }
 
-.smallProject > .projectText {
-  margin-bottom: 0em;
+.smallProject > h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  font-weight: bolder;
 }
 
-.smallProject > h2 {
-  font-size: 1.5rem;
-  font-weight: bolder;
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.75em;
+}
+
+.iconTextWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.emailAddress {
+  font-weight: bold;
 }
 
 @keyframes party-anim {
@@ -151,15 +178,6 @@ iframe {
   70%  {background-color: hsl(220, 80%, 50%);}
   80%  {background-color: hsl(300, 80%, 50%);}
   100% {background-color: hsl(360, 80%, 50%);}
-}
-
-@keyframes slidein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 @keyframes fadein {
@@ -178,35 +196,30 @@ iframe {
     height: 60vw;
   }
 
-  li {
-    margin-right: 1em;
-  }  
-
+  button {
+    width: 100%;
+    padding: 1em 0;
+  }
+  
   .app {
     flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100vh;
-    padding-top: 0.5em;
-  }
-
-  .projects {
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    width: 95vw;
-    justify-content: center;
-    margin-bottom: 1.5em;
-  }
-
-  .projects > h4 {
-    font-size: 0.8rem;
-    opacity: 0.8;
-    margin: 0.5em 0.75em;
   }
 
   .content {
-    width: 90vw;
-    margin: 0 auto;
+    padding: 2em;
+    width: auto;
+  }
+
+  .projectList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    width: auto;
+  }
+
+  .projectListTitle {
+    margin: 1em;
   }
 
   .projectName > h1, h2 {
@@ -222,7 +235,21 @@ iframe {
     margin-bottom: 3em;
   }
 
-  .projectImages {
+  .projectMedia {
     grid-auto-rows: auto;
+  }
+
+  .smallProject > h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .urlsWrapper {
+    flex-wrap: wrap;
+  }
+
+  .urlsWrapper > * {
+    margin-right: 0;
+    margin-bottom: 0.5em;
   }
 }

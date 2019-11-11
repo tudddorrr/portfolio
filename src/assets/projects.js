@@ -5,10 +5,28 @@ const projects = [
     bg: '#5082D2',
     colour: '#fff',
     text: [
-      'University of Nottingham Compsci Grad',
-      'Interested in networking, IoT, tools and game development'
+      'Currently looking for a diverse opportunity where I can develop both my frontend and design skills as well as work on a user-facing product still finding its feet',
+      'Interested in IoT, sound/lighting systems, connectivity, discoverability and game development'
     ],
-    images: []
+    images: [],
+    urls: [
+      {
+        link: 'https://github.com/sekaru',
+        text: 'GitHub'
+      },
+      {
+        link: 'https://twitter.com/sekaru_',
+        text: 'Twitter'
+      },
+      {
+        link: 'https://www.linkedin.com/in/tudor-sandulescu-257bb5130',
+        text: 'LinkedIn'
+      },
+      {
+        link: 'cv.pdf',
+        text: 'CV'
+      }
+    ]
   },
   {
     title: 'Sleepy Studios',
@@ -26,7 +44,16 @@ const projects = [
       require('../assets/images/vigilante.png'),
       require('../assets/images/crawle.png')
     ],
-    url: 'sleepystudios.net',
+    urls: [
+      {
+        link: 'https://sleepystudios.net',
+        text: 'sleepystudios.net'
+      },
+      {
+        link: 'https://github.com/sleepystudios',
+        text: 'github.com/sleepystudios'
+      }
+    ],
     builtWith: ['Unity', 'C#', 'JavaScript', 'Java', 'VB6']
   },
   {
@@ -60,6 +87,12 @@ const projects = [
       require('../assets/images/jpi4.png')
     ],
     url: 'justpick.it',
+    urls: [
+      {
+        link: 'https://github.com/sekaru/JustPickIt',
+        text: 'github.com/sekaru/JustPickIt'
+      }
+    ],
     builtWith: ['Node', 'Angular4', 'Bootstrap', 'TypeScript', 'Amazon Lambda', 'DynamoDB']
   },
   {
@@ -73,16 +106,22 @@ const projects = [
     columns: 2,
     images: [require('../assets/images/waker.png')],
     url: 'twitter.com/waker_bot',
+    urls: [
+      {
+        link: 'https://twitter.com/waker_bot',
+        text: 'twitter.com/waker_bot'
+      }
+    ],
     builtWith: ['Node', 'Serverless', 'Amazon Lambda']
   },
   {
     title: 'Interviews App',
     date: 'July 2017',
-    bg: '#8761d6',
+    bg: '#be2864',
     text: [
       'An app I co-built during an internship at MHR. Allows potential candidates to record themselves answering interview questions, retry questions and review interviews by playing back individual clips',  
     ],
-    columns: 4,
+    columns: 6,
     images: [
       require('../assets/images/interview1.png'),
       require('../assets/images/interview2.png'),
@@ -94,7 +133,7 @@ const projects = [
   {
     title: 'Check In',
     date: 'August 2017',
-    bg: '#7f0d4a',
+    bg: '#750d45',
     text: [
       'An app I built during an internship at MHR. The app aims to augment employee check-ins by managing a list of agreements and talking points between a manager and employee with speech recognition to easily store conversation notes for later review',
       'The app also features video calling via Twilio and a socket server to synchronise events between managers and employees',  
@@ -128,7 +167,12 @@ const projects = [
       require('../assets/images/dangle3.png'),
       require('../assets/images/dangle4.png')
     ],
-    url: 'github.com/sekaru/dangle',
+    urls: [
+      {
+        link: 'https://github.com/sekaru/dangle',
+        text: 'github.com/sekaru/dangle'
+      }
+    ],
     builtWith: ['Node', 'Angular4', 'Material', 'SASS', 'TypeScript', 'Pug']
   },
   {
@@ -142,7 +186,12 @@ const projects = [
     images: [
       require('../assets/images/eyes.png')
     ],
-    url: 'github.com/sekaru/eyes',
+    urls: [
+      {
+        link: 'https://github.com/sekaru/eyes',
+        text: 'github.com/sekaru/eyes'
+      }
+    ],
     builtWith: ['Angular4', 'TypeScript']
   },
   {
@@ -154,7 +203,12 @@ const projects = [
     ],
     columns: 2,
     images: [require('../assets/images/oldtudr.png')],
-    url: 'sleepystudios.net/oldtudr',
+    urls: [
+      {
+        link: 'https://sleepystudios.net/oldtudr',
+        text: 'sleepystudios.net/oldtudr'
+      }
+    ],
     builtWith: ['Vue']
   },
   {
@@ -187,7 +241,12 @@ const projects = [
       require('../assets/images/jmi3.png'),
       require('../assets/images/jmi4.png')
     ],
-    url: 'github.com/sekaru/justmapit',
+    urls: [
+      {
+        link: 'https://github.com/sekaru/justmapit',
+        text: 'github.com/sekaru/justmapit'
+      }
+    ],
     builtWith: ['React Native', 'Google Maps & Places APIs']
   },
   {
@@ -198,8 +257,15 @@ const projects = [
       'Visualise your Spotify music through a LIFX device using Spotify\'s web API and audio analysis tool',
       'The visualiser includes a number of different modes for how colours change and how beats are detected as well as many other settings for personalising the visualiser'
     ],
-    images: [],
-    url: 'github.com/sekaru/spotify-lifx-visualiser',
+    videos: [
+      require('../assets/videos/visualiser.mp4')
+    ],
+    urls: [
+      {
+        link: 'https://github.com/sekaru/spotify-lifx-visualiser',
+        text: 'github.com/sekaru/spotify-lifx-visualiser'
+      }
+    ],
     builtWith: ['Node', 'Pug', 'Spotify API']
   },
   {
@@ -213,7 +279,12 @@ const projects = [
       require('../assets/images/octo1.png'),   
       require('../assets/images/octo2.png')  
     ],
-    url: 'sekaru.github.io/Octopocto',
+    urls: [
+      {
+        link: 'https://sekaru.github.io/Octopocto',
+        text: 'sekaru.github.io/Octopocto'
+      }
+    ],
     builtWith: ['React', 'GitHub API']
   },
   {
@@ -227,7 +298,12 @@ const projects = [
     images: [
       require('../assets/images/eyes2.png')
     ],
-    url: 'sleepystudios.net/eyes',
+    urls: [
+      {
+        link: 'https://sleepystudios.net/eyes',
+        text: 'sleepystudios.net/eyes'
+      }
+    ],
     builtWith: ['Inferno']
   },
   {
@@ -239,13 +315,18 @@ const projects = [
       'The app allows you to setup sequences. These sequences then show up on the main dashboard and activate when pressed',
       'Sequences can loop and are made up of actions. Actions specify hue/saturation/kelvin/brightness as well as custom delays and transition times'
     ],
-    columns: 4,
+    columns: 6,
     images: [
       require('../assets/images/ls1.png'),
       require('../assets/images/ls2.png'),
       require('../assets/images/ls3.png')
     ],
-    url: 'github.com/sekaru/lightshow',
+    urls: [
+      {
+        link: 'https://github.com/sekaru/lightshow',
+        text: 'github.com/sekaru/lightshow'
+      }
+    ],
     builtWith: ['React Native']
   },
   {
@@ -266,7 +347,12 @@ const projects = [
       require('../assets/images/jpi25.png'),
       require('../assets/images/jpi23.png')
     ],
-    url: 'justpick.it',
+    urls: [
+      {
+        link: 'https://justpick.it',
+        text: 'justpick.it'
+      }
+    ],
     builtWith: ['Inferno, Google Places API']
   },
   {
@@ -281,7 +367,7 @@ const projects = [
       'Streakbot also has an API for querying purposes, built with Koa',
       'As of August 2019, DevStreak has had 775 streak updates by 40 users with the highest streak being 36 days'
     ],
-    columns: 2,
+    columns: 3,
     images: [
       require('../assets/images/ds5.png'),
       require('../assets/images/ds4.png'),
@@ -289,8 +375,41 @@ const projects = [
       require('../assets/images/ds2.png'),
       require('../assets/images/ds1.png')
     ],
-    url: 'discord.gg/zs2CQk',
+    urls: [
+      {
+        link: 'https://discord.gg/zs2CQk',
+        text: 'discord.gg/zs2CQk'
+      }
+    ],
     builtWith: ['Discord.js', 'lowdb', 'Node', 'Koa']
+  },
+  {
+    title: 'Expend',
+    date: 'October 2018 - Present',
+    bg: '#00abc8',
+    colour: '#fff',
+    text: [
+      'I led the development of the Expend frontend from January 2019 onwards, designing and implementing the majority of the product\'s largest features',
+      'I managed the development of the outsourced app and the contractor working on it as well as fixing time-critical bugs when necessary',
+      'I took over all design duties creating mockups, vector art, animations, marketing materials and print media',
+      'I led the rebrand of the company to our new branding including redesigning the web app, mobile app and website'
+    ],
+    columns: 3,
+    images: [
+      require('../assets/images/expend1.png'),
+      require('../assets/images/expend2.png'),
+      require('../assets/images/expend3.png'),
+      require('../assets/images/expend4.png'),
+      require('../assets/images/expend5.png'),
+      require('../assets/images/expend6.png')
+    ],
+    urls: [
+      {
+        link: 'https://expend.io',
+        text: 'expend.io'
+      }
+    ],
+    builtWith: ['React, React Native, Invision Studio, Figma, After Effects']
   },
   {
     title: 'Small Projects',

@@ -1,14 +1,15 @@
-import { Component } from 'inferno'
+
 import './Lightbox.css'
 
-export default class Lightbox extends Component {
-  render() {
-    if(!this.props.image) return null
+export default props => {
+  if(!props.image) return null
 
-    return (
-      <div className="lightbox">
-        <img src={this.props.image} alt="Project" />
-      </div>
-    )
-  }
+  return (
+    <div
+      className="lightbox"
+      onClick={props.close}
+    >
+      <img src={props.image} alt="Project" />
+    </div>
+  )
 }

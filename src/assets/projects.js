@@ -58,7 +58,7 @@ const projects = [
   },
   {
     title: 'Expend',
-    date: 'October 2018 - Present',
+    date: 'October 2018 - December 2019',
     bg: '#00abc8',
     colour: '#fff',
     text: [
@@ -68,14 +68,7 @@ const projects = [
       'I led the rebrand of the company to our new branding including redesigning the web app, mobile app and website'
     ],
     columns: 3,
-    images: [
-      require('../assets/images/expend1.png'),
-      require('../assets/images/expend2.png'),
-      require('../assets/images/expend3.png'),
-      require('../assets/images/expend4.png'),
-      require('../assets/images/expend5.png'),
-      require('../assets/images/expend6.png')
-    ],
+    images: [],
     urls: [
       {
         link: 'https://expend.io',

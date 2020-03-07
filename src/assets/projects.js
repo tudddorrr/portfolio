@@ -1,12 +1,11 @@
 const projects = [
   {
     title: 'Tudor',
-    date: 'Frontend Developer at Expend',
+    date: 'Sandulescu',
     bg: '#5082D2',
     colour: '#fff',
     text: [
-      'Currently looking for a diverse opportunity where I can develop both my frontend and design skills as well as work on a user-facing product still finding its feet',
-      'Interested in IoT, sound/lighting systems, connectivity, discoverability and game development'
+      'I\'m a frontend web/mobile developer with experience in graphics and design. I\'m also interested in IoT, sound/lighting systems, connectivity, discoverability and game development'
     ],
     images: [],
     urls: [
@@ -17,10 +16,6 @@ const projects = [
       {
         link: 'https://twitter.com/sekaru_',
         text: 'Twitter'
-      },
-      {
-        link: 'https://www.linkedin.com/in/tudor-sandulescu-257bb5130',
-        text: 'LinkedIn'
       },
       {
         link: 'cv.pdf',
@@ -35,7 +30,7 @@ const projects = [
     text: [
       'Game development studio I co-founded. To date we\'ve made over 15 games, including three commercial projects, two of which (Superstatic and Scrunk) are available on Steam',
       'Our focus has always been on prototyping and recently our aim has been to create unique and interesting multiplayer games (e.g. Entropy)',
-      'We regularly participate in game jams, especially Ludum Dare. These usually culminate in new project ideas (e.g. Waker and Dangle). We also like to open source our jam games too!',        
+      'We regularly participate in game jams, especially Ludum Dare. These usually culminate in new project ideas (e.g. Waker and Dangle). We also like to open source our jam games',        
       'Our first game, Crawle, despite not being on Steam, was hugely successful in a time where Steam was the dominant platform for indie games. Crawle evolved from being a simple 4-year passion project to a great first step in the indie games industry',
     ],
     images: [
@@ -63,6 +58,7 @@ const projects = [
     colour: '#fff',
     text: [
       'I led the development of the Expend frontend from January 2019 onwards, designing and implementing the majority of the product\'s largest features',
+      'I made extensive rewrites to the existing codebase for speed, accessibility and maintainability',
       'I managed the development of the outsourced app and the contractor working on it as well as fixing time-critical bugs when necessary',
       'I took over all design duties creating mockups, vector art, animations, marketing materials and print media',
       'I led the rebrand of the company to our new branding including redesigning the web app, mobile app and website'

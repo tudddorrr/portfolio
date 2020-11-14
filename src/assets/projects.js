@@ -256,8 +256,8 @@ const projects = [
     images: [require('../assets/images/oldtudr.png')],
     urls: [
       {
-        link: 'https://sleepystudios.net/oldtudr',
-        text: 'sleepystudios.net/oldtudr'
+        link: 'https://github.com/sekaru/tudr.xyz',
+        text: 'github.com/sekaru/tudr.xyz'
       }
     ],
     builtWith: ['Vue']
@@ -409,17 +409,17 @@ const projects = [
       {
         title: 'BadBook',
         text: 'A minimal social network built with Inferno, Serverless, Amazon Lambda and DynamoDB. The platform allows users to customise their posts (such as the text and background colours) and react to other posts. Users can choose to sign up or remain completely anonymous',
-        url: 'sleepystudios.net/badbook'
-      },
-      {
-        title: 'AppyHour',
-        text: 'A React app showing happy hour deals in London with an automatically curated view of live deals',
-        url: 'sleepystudios.net/appyhour'
+        url: 'github.com/sekaru/badbook'
       },
       {
         title: 'LIFX Visualiser 2',
         text: 'A music visualiser that uses raw audio to control smart lights. Building on this, the dev branch has a colour definition system, allowing users to define their own colours as well as how they\'re triggered (e.g. when the volume hits a certain threshold or a specific percentage change in volume) as well as which lights to use',
         url: 'github.com/sekaru/lifx-visualiser2'
+      },
+      {
+        title: 'Simple Leaderboard System',
+        text: 'A painless, serverless leaderboard system built during a game jam. Leaderboards are stored in S3 and each entry can have a secret so that a user can reserve their name',
+        url: 'github.com/SleepyStudios/simple-leaderboard-system'
       }
     ],
     images: []

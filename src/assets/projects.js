@@ -34,10 +34,10 @@ const projects = [
       'Our first game, Crawle, despite not being on Steam, was hugely successful in a time where Steam was the dominant platform for indie games. Crawle evolved from being a simple 4-year passion project to a great first step in the indie games industry',
     ],
     images: [
-      require('../assets/images/ss.png'),
-      require('../assets/images/entropy.png'),
-      require('../assets/images/vigilante.png'),
-      require('../assets/images/crawle.png')
+      require('../assets/images/ss.webp'),
+      require('../assets/images/entropy.webp'),
+      require('../assets/images/vigilante.webp'),
+      require('../assets/images/crawle.webp')
     ],
     urls: [
       {
@@ -65,11 +65,11 @@ const projects = [
     ],
     columns: 3,
     images: [
-      require('../assets/images/ds5.png'),
-      require('../assets/images/ds4.png'),
-      require('../assets/images/ds3.png'),
-      require('../assets/images/ds2.png'),
-      require('../assets/images/ds1.png')
+      require('../assets/images/ds5.webp'),
+      require('../assets/images/ds4.webp'),
+      require('../assets/images/ds3.webp'),
+      require('../assets/images/ds2.webp'),
+      require('../assets/images/ds1.webp')
     ],
     urls: [
       {
@@ -112,12 +112,12 @@ const projects = [
     ],
     columns: 3,
     images: [
-      require('../assets/images/jpi21.png'),
-      require('../assets/images/jpi22.png'),
-      require('../assets/images/jpi26.png'),
-      require('../assets/images/jpi24.png'),
-      require('../assets/images/jpi25.png'),
-      require('../assets/images/jpi23.png')
+      require('../assets/images/jpi21.webp'),
+      require('../assets/images/jpi22.webp'),
+      require('../assets/images/jpi26.webp'),
+      require('../assets/images/jpi24.webp'),
+      require('../assets/images/jpi25.webp'),
+      require('../assets/images/jpi23.webp')
     ],
     urls: [
       {
@@ -138,9 +138,9 @@ const projects = [
     ],
     columns: 6,
     images: [
-      require('../assets/images/ls1.png'),
-      require('../assets/images/ls2.png'),
-      require('../assets/images/ls3.png')
+      require('../assets/images/ls1.webp'),
+      require('../assets/images/ls2.webp'),
+      require('../assets/images/ls3.webp')
     ],
     urls: [
       {
@@ -159,7 +159,7 @@ const projects = [
     ],
     columns: 2,
     images: [
-      require('../assets/images/eyes2.png')
+      require('../assets/images/eyes2.webp')
     ],
     urls: [
       {
@@ -177,8 +177,8 @@ const projects = [
       'A web app that automatically generates a portfolio from your public GitHub profile and shows your favourite languages and topics',
     ],
     images: [
-      require('../assets/images/octo1.png'),   
-      require('../assets/images/octo2.png')  
+      require('../assets/images/octo1.webp'),   
+      require('../assets/images/octo2.webp')  
     ],
     urls: [
       {
@@ -215,11 +215,11 @@ const projects = [
       'A Just Pick It mobile companion app allowing you to add places to your lobby by tapping on them in a Google Maps interface',  
     ],
     images: [
-      require('../assets/images/jmi0.png'),
-      require('../assets/images/jmi1.png'),
-      require('../assets/images/jmi2.png'),
-      require('../assets/images/jmi3.png'),
-      require('../assets/images/jmi4.png')
+      require('../assets/images/jmi0.webp'),
+      require('../assets/images/jmi1.webp'),
+      require('../assets/images/jmi2.webp'),
+      require('../assets/images/jmi3.webp'),
+      require('../assets/images/jmi4.webp')
     ],
     urls: [
       {
@@ -238,10 +238,10 @@ const projects = [
       'I worked on Yoop\'s React frontend, Chrome extension and React Native mobile app. I redesigned and reworked existing interfaces, brought them up to modern web standards and contributed UX improvements',
     ],
     images: [
-      require('../assets/images/yoop1.png'),
-      require('../assets/images/yoop2.png'),
-      require('../assets/images/yoop3.png'),
-      require('../assets/images/yoop4.png')
+      require('../assets/images/yoop1.webp'),
+      require('../assets/images/yoop2.webp'),
+      require('../assets/images/yoop3.webp'),
+      require('../assets/images/yoop4.webp')
     ],
     builtWith: ['React', 'React Native']
   },
@@ -253,7 +253,7 @@ const projects = [
       'My old portfolio built over a weekend to learn Vue. The app features a dynamic slide system used to display each project and utilises CircleCI to automatically build and deploy',
     ],
     columns: 2,
-    images: [require('../assets/images/oldtudr.png')],
+    images: [require('../assets/images/oldtudr.webp')],
     urls: [
       {
         link: 'https://github.com/sekaru/tudr.xyz',
@@ -271,7 +271,7 @@ const projects = [
     ],
     columns: 2,
     images: [
-      require('../assets/images/eyes.png')
+      require('../assets/images/eyes.webp')
     ],
     urls: [
       {
@@ -292,11 +292,11 @@ const projects = [
     ],
     columns: 3,
     images: [
-      require('../assets/images/dangle0.png'),
-      require('../assets/images/dangle.png'), 
-      require('../assets/images/dangle2.png'),
-      require('../assets/images/dangle3.png'),
-      require('../assets/images/dangle4.png')
+      require('../assets/images/dangle0.webp'),
+      require('../assets/images/dangle.webp'), 
+      require('../assets/images/dangle2.webp'),
+      require('../assets/images/dangle3.webp'),
+      require('../assets/images/dangle4.webp')
     ],
     urls: [
       {
@@ -316,13 +316,13 @@ const projects = [
     ],
     columns: 4,
     images: [
-      require('../assets/images/checkin1.png'),
-      require('../assets/images/checkin2.png'),
-      require('../assets/images/checkin3.png'),
-      require('../assets/images/checkin4.png'),
-      require('../assets/images/checkin5.png'),
-      require('../assets/images/checkin6.png'),
-      require('../assets/images/checkin7.png')
+      require('../assets/images/checkin1.webp'),
+      require('../assets/images/checkin2.webp'),
+      require('../assets/images/checkin3.webp'),
+      require('../assets/images/checkin4.webp'),
+      require('../assets/images/checkin5.webp'),
+      require('../assets/images/checkin6.webp'),
+      require('../assets/images/checkin7.webp')
     ],
     builtWith: ['Ionic3', 'TypeScript', 'Twilio']
   },
@@ -335,10 +335,10 @@ const projects = [
     ],
     columns: 6,
     images: [
-      require('../assets/images/interview1.png'),
-      require('../assets/images/interview2.png'),
-      require('../assets/images/interview3.png'),
-      require('../assets/images/interview4.png')
+      require('../assets/images/interview1.webp'),
+      require('../assets/images/interview2.webp'),
+      require('../assets/images/interview3.webp'),
+      require('../assets/images/interview4.webp')
     ],
     builtWith: ['React Native']
   },
@@ -351,7 +351,7 @@ const projects = [
       'Initially implemented using Express, in early 2018 I rewrote it to take advantage of serverless architecture using Amazon Lambda',
     ],
     columns: 2,
-    images: [require('../assets/images/waker.png')],
+    images: [require('../assets/images/waker.webp')],
     url: 'twitter.com/waker_bot',
     urls: [
       {
@@ -370,10 +370,10 @@ const projects = [
       'The backend was originally built using Express and lowDB (a lodash-based database package) but was rewritten in 2018 to use serverless architecture (specifically Amazon Lambda) coupled with DynamoDB',  
     ],
     images: [
-      require('../assets/images/jpi1.png'),
-      require('../assets/images/jpi2.png'),
-      require('../assets/images/jpi3.png'),
-      require('../assets/images/jpi4.png')
+      require('../assets/images/jpi1.webp'),
+      require('../assets/images/jpi2.webp'),
+      require('../assets/images/jpi3.webp'),
+      require('../assets/images/jpi4.webp')
     ],
     url: 'justpick.it',
     urls: [
@@ -394,9 +394,9 @@ const projects = [
       'I developed the frontend and backend (starting in PHP and then later rewriting it in JavaScript) and managed the technical and UX/design aspects of the project'
     ],
     images: [
-      require('../assets/images/mobauth1.png'),
-      require('../assets/images/mobauth2.png'),
-      require('../assets/images/mobauth3.png')
+      require('../assets/images/mobauth1.webp'),
+      require('../assets/images/mobauth2.webp'),
+      require('../assets/images/mobauth3.webp')
     ],
     builtWith: ['Node', 'Angular2', 'TypeScript']
   },

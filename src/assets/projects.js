@@ -52,6 +52,34 @@ const projects = [
     builtWith: ['Unity', 'C#', 'JavaScript', 'Java', 'VB6']
   },
   {
+    title: 'DevStreak',
+    date: 'January 2019 to December 2020',
+    bg: '#7289DA',
+    text: [
+      'A open-source Discord Bot and server dedicated to keeping up a streak of doing something every day',
+      'Users can start and progress streaks using the !streak command in a specific chosen channel followed by the work they did',
+      'Users can have one active streak per channel and can see all the active streaks in the channel as well as whether or not they have progressed their own streak today',
+      'At the end of the day, the highest active streaks are announced and streaks that haven\'t been continued are reset',
+      'Streakbot also has an API for querying purposes, built with Koa',
+      'As of December 2020, DevStreak has had 1450 streak updates by 44 users with the highest streak being 91 days'
+    ],
+    columns: 3,
+    images: [
+      require('../assets/images/ds5.png'),
+      require('../assets/images/ds4.png'),
+      require('../assets/images/ds3.png'),
+      require('../assets/images/ds2.png'),
+      require('../assets/images/ds1.png')
+    ],
+    urls: [
+      {
+        link: 'https://discord.gg/zs2CQk',
+        text: 'discord.gg/zs2CQk'
+      }
+    ],
+    builtWith: ['Discord.js', 'lowdb', 'Node', 'Koa']
+  },
+  {
     title: 'Expend',
     date: 'October 2018 - December 2019',
     bg: '#00abc8',
@@ -72,34 +100,6 @@ const projects = [
       }
     ],
     builtWith: ['React, React Native, Invision Studio, Figma, After Effects']
-  },
-  {
-    title: 'DevStreak',
-    date: 'January 2019 to August 2019',
-    bg: '#7289DA',
-    text: [
-      'A open-source Discord Bot and server dedicated to keeping up a streak of doing something every day',
-      'Users can start and progress streaks using the !streak command in a specific chosen channel followed by the work they did',
-      'Users can have one active streak per channel and can see all the active streaks in the channel as well as whether or not they have progressed their own streak today',
-      'At the end of the day, the highest active streaks are announced and streaks that haven\'t been continued are reset',
-      'Streakbot also has an API for querying purposes, built with Koa',
-      'As of August 2019, DevStreak has had 775 streak updates by 40 users with the highest streak being 36 days'
-    ],
-    columns: 3,
-    images: [
-      require('../assets/images/ds5.png'),
-      require('../assets/images/ds4.png'),
-      require('../assets/images/ds3.png'),
-      require('../assets/images/ds2.png'),
-      require('../assets/images/ds1.png')
-    ],
-    urls: [
-      {
-        link: 'https://discord.gg/zs2CQk',
-        text: 'discord.gg/zs2CQk'
-      }
-    ],
-    builtWith: ['Discord.js', 'lowdb', 'Node', 'Koa']
   },
   {
     title: 'Just Pick It 2',

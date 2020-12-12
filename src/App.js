@@ -21,6 +21,7 @@ export default class App extends Component {
           const className = 'projectListTitle' + (i === this.state.projectIndex ? ' projectListTitleActive' : '')
           return (      
             <li
+              key={i}
               className={className}
               onClick={linkEvent({ context: this, index: i }, this.clickProject)}
               onFocus={linkEvent({ context: this, index: i }, this.clickProject)}
@@ -71,16 +72,16 @@ export default class App extends Component {
             <h2>{p.date} {p.wip ? '[WIP]' : ''}</h2>
           </div>
 
-          {p.text && p.text.map(s => {
-            return <p className='projectText'>{s}</p>
+          {p.text && p.text.map(text => {
+            return <p key={text} className='projectText'>{text}</p>
           })}
 
-          {p.smallProjects && p.smallProjects.map(sp => {
+          {p.smallProjects && p.smallProjects.map((sp, idx) => {
             return (
-              <div className={'smallProject'}>
+              <div key={idx} className={'smallProject'}>
                 <h2>{sp.title}</h2>
                 <p className='projectText'>{sp.text}</p>
-                <Button link={'http://' + sp.url} text={sp.url} />
+                <Button link={'https://' + sp.url} text={sp.url} />
               </div>
             )
           })}
@@ -96,7 +97,7 @@ export default class App extends Component {
         
           {p.urls &&
             <div className='urlsWrapper'>
-              {p.urls.map(url => <Button link={url.link} text={url.text} tabIndex={0} />)}
+              {p.urls.map((url) => <Button key={url.link} link={url.link} text={url.text} tabIndex={0} />)}
             </div>
           }
 
@@ -111,15 +112,16 @@ export default class App extends Component {
             className='projectMedia'
             style={{ 'grid-template-columns': 'repeat(' + (p.columns ? p.columns : numProjectMedia) + ', 1fr)' }}
           >
-            {p.images && p.images.map(image => (
+            {p.images && p.images.map((image, idx) => (
               <img
+                key={`${p.title}-${idx}`}
                 src={image}
                 alt={image}
                 onClick={linkEvent({context: this, image}, this.setImage)}
               />
             ))}
-            {p.videos && p.videos.map(video => (
-              <video controls onPlay={linkEvent(this, this.onPlayVideo)}>
+            {p.videos && p.videos.map((video, idx) => (
+              <video key={idx} controls onPlay={linkEvent(this, this.onPlayVideo)}>
                 <source src={video} type='video/mp4' />
               </video>
             ))}
